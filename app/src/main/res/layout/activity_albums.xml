@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:id="@+id/american"
+            style="@style/albumArtistRow"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/american_beauty_american_psycho_album_art"
+                android:src="@drawable/american" />
+
+            <TextView
+                style="@style/albumArtistName"
+                android:text="@string/american_beauty_american_psycho" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/communion"
+            style="@style/albumArtistRow"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/communion_album_art"
+                android:src="@drawable/communion" />
+
+            <TextView
+                style="@style/albumArtistName"
+                android:text="@string/communion" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/damn"
+            style="@style/albumArtistRow"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/damn_album_art"
+                android:src="@drawable/damn" />
+
+            <TextView
+                style="@style/albumArtistName"
+                android:text="@string/damn" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/doo"
+            style="@style/albumArtistRow"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/doo_wops_hooligans_album_art"
+                android:src="@drawable/doo" />
+
+            <TextView
+                style="@style/albumArtistName"
+                android:text="@string/doo_wops_hooligans" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:id="@+id/eminemShow"
+            style="@style/albumArtistRow"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/the_eminem_show_album_art"
+                android:src="@drawable/eminem" />
+
+            <TextView
+                style="@style/albumArtistName"
+                android:text="@string/the_eminem_show" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

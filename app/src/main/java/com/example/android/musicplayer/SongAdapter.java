@@ -10,16 +10,11 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.android.musicplayer.R;
-import com.example.android.musicplayer.Song;
-
-import org.w3c.dom.Text;
-
 import java.util.ArrayList;
 
 public class SongAdapter extends ArrayAdapter<Song> {
 
-    public SongAdapter(Activity context, ArrayList<Song> songs) {
+    SongAdapter(Activity context, ArrayList<Song> songs) {
         super(context, 0, songs);
     }
 

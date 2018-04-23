@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Music Player</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="american_beauty_american_psycho">American Beauty/American Psycho</string>
+    <string name="communion">Communion</string>
+    <string name="damn">DAMN.</string>
+    <string name="doo_wops_hooligans"><![CDATA[Doo-Wops & Hooligans]]></string>
+    <string name="the_eminem_show">The Eminem Show</string>
+    <string name="artists">Artists</string>
+    <string name="years_years"><![CDATA[Years & Years]]></string>
+    <string name="eminem">Eminem</string>
+    <string name="fall_out_boy">Fall Out Boy</string>
+    <string name="kendrick_lamar">Kendrick Lamar</string>
+    <string name="bruno_mars">Bruno Mars</string>
+    <string name="doo_wops_hooligans_album_art"><![CDATA[Doo-Wops & Hooligans album art]]></string>
+    <string name="the_eminem_show_album_art">The Eminem Show album art</string>
+    <string name="american_beauty_american_psycho_album_art">American Beauty/American Psycho album art</string>
+    <string name="damn_album_art">DAMN. album art</string>
+    <string name="communion_album_art">Communion album art</string>
+    <string name="placeholder_album_art">placeholder Album Art</string>
+    <string name="circle">●</string>
 </resources>

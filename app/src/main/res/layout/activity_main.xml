@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/songs"
-        android:textSize="32sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Songs"/>
+        android:id="@+id/songs_text_view"
+        style="@style/menuSelect"
+        android:background="#FB8C00"
+        android:text="@string/songs" />
+
+    <TextView
+        android:id="@+id/artists_text_view"
+        style="@style/menuSelect"
+        android:background="#FF9800"
+        android:text="@string/artists" />
+
+    <TextView
+        android:id="@+id/albums_text_view"
+        style="@style/menuSelect"
+        android:background="#FFA726"
+        android:text="@string/albums" />
 
 </LinearLayout>

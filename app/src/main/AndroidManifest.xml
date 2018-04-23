@@ -16,7 +16,37 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SongsActivity" />
+        <activity
+            android:name=".SongsActivity"
+            android:label="Songs">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".AlbumsActivity"
+            android:label="Albums">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SelectedAlbumActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".AlbumsActivity" />
+        </activity>
+        <activity
+            android:name=".ArtistsActivity"
+            android:label="Artists">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SelectedArtistActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ArtistsActivity" />
+        </activity>
     </application>
 
 </manifest>
